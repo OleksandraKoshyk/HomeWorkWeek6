@@ -26,8 +26,8 @@
     <div class="container">
       <div class="row align-items-end">
         <div class="col-auto align-self-start logo">👩‍💻</div>
-        <div class="col-auto">
-            <form id="city-form">
+        <form id="city-form">
+          <div class="col-auto">
             <div class="mb-3">
               <input
                 type="text"
@@ -47,7 +47,11 @@
           </div>
         </form>
         <div class="col-auto">
-          <button type="submit" class="btn mb-3 btn-secondary btn-lg btn2" id = "current">
+          <button
+            type="submit"
+            class="btn mb-3 btn-secondary btn-lg btn2"
+            id="current"
+          >
             Current
           </button>
         </div>
@@ -63,7 +67,6 @@
           <h3 id="weather">Sunny</h3>
           <h2 class="temperature">
             🌞 <span id="temperature">28</span> <span id="celsius">℃</span>
-            
           </h2>
           <br />
           <div class="row">
@@ -104,6 +107,12 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="footer">
+        <a href="https://github.com/OleksandraKoshyk/HomeWorkWeek6">
+          Open-source code</a
+        >
+        by Oleksandra Koshyk
       </div>
     </div>
     <script src="src/app.js"></script>
